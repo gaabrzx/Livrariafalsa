@@ -15,7 +15,6 @@ body {
 }
 
 .left {
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,8 +25,8 @@ body {
 
 #watermark {
   position: absolute;
-  top: 50px;
-  left: 50px;
+  top: 10px;
+  left: 10px;
   color: #a736ea;
 }
 
@@ -67,13 +66,14 @@ body {
   }
 
   .left {
+    height: 100%;
     width: 100%;
   }
 }
 
 @media screen and (max-width: 590px) {
   .left h1:nth-child(2) {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   #watermark {
