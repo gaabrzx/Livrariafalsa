@@ -48,7 +48,7 @@ body {
 
 .left h1:nth-child(2) {
   font-size: 3rem;
-  width: 500px;
+  width: 80%;
 }
 
 .left button {
@@ -70,10 +70,17 @@ body {
     width: 100%;
     text-align: center;
   }
+
+  .left h1:nth-child(2) {
+    font-size: 2.2rem;
 }
 
 @media screen and (max-width: 590px) {
   .left h1:nth-child(2) {
-    font-size: 2rem;
+    font-size: 1rem;
+  }
+
+  #watermark {
+    font-size: 1.2rem;
   }
 } ;
