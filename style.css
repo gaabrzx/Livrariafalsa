@@ -68,11 +68,7 @@ body {
 
   .left {
     width: 100%;
-    text-align: center;
   }
-
-  .left h1:nth-child(2) {
-    font-size: 2.2rem;
 }
 
 @media screen and (max-width: 590px) {
